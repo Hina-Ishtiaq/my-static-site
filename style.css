@@ -69,6 +69,19 @@
 
 
 }
+@media (max-width: 750px) {
+    .box {
+        width: 45%; /* Mobile par aik line mein 2 boxes aayenge */
+        height: auto; /* Height ko fixed 400px se hata kar auto kar den */
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 92%; /* Bohat choti screen par aik line mein 1 hi box */
+    }
+}
 .search-icon{
     width: 45px;
     display: flex;
